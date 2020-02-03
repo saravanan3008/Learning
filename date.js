@@ -1,26 +1,29 @@
-function dates(val){
-    var datess = val;
-    var days = new Date(datess);
-    var dattts = days.getDay();
-     if(dattts == '1'){
+function Extractday(value){
+    let date = value;
+    const getday = new Date(date);
+    let  days = getday.getDay();
+     if(days == '1'){
          var day = "Monday";
-     }else if(dattts == '2'){
+     }else if(days == '2'){
         day = "Tues";
-     }else if(dattts == '3'){
+     }else if(days == '3'){
         day = "WEDNES";
-     }else if(dattts == '4'){
+     }else if(days == '4'){
         day = "THUSDay";
-    }else if(dattts == '5'){
+    }else if(days == '5'){
         day = "FRIDAY";
-    }else if(dattts == '6'){
+    }else if(days == '6'){
         day = "Saturaday";
-    }else if(dattts == '7'){
+    }else if(days == '0'){
         day = "Sunday";
     }
 
 
-console.log(dattts);
+console.log(days);
 console.log(day);
 }
 
-dates("03/01/2013");
+//Extradate("03/31/2013");
+
+export.Extractday();
+
