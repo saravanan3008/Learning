@@ -1,10 +1,10 @@
-function sum(a,b){
+const  sum = (a,b) =>{
     return a+b;
 }
-function sub(a,b){
+const sub = (a,b) => {
     return a-b;
 }
-function mul(a,b){
+const mul= (a,b) =>{
     return a*b;
 }
 exports.sum =sum;

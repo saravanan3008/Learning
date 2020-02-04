@@ -5,4 +5,4 @@ Dates.getDay("03/31/2013");
 switchloop.switchgetDay("03/13/2014");
 //console.log("hello world");
 
-condnandloops.sum(1,2);
+condnandloops.sum(1,4);
