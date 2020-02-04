@@ -1,4 +1,4 @@
-function Extractday(value){
+const  getDay = (value) => {
     let date = value;
     const getday = new Date(date);
     let  days = getday.getDay();
@@ -25,5 +25,5 @@ console.log(day);
 
 //Extradate("03/31/2013");
 
-export.Extractday();
+exports.getDay = getDay;
 
