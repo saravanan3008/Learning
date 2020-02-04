@@ -1,4 +1,4 @@
-const  getDay = (value) => {
+const  switchgetDay = (value) => {
     let date = value;
     const getday = new Date(date);
     let  days = getday.getDay();
